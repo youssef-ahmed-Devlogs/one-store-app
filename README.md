@@ -3,7 +3,6 @@
 <a href="https://one-store.netlify.app/" target="_blank">Click Here For Live Preview</a> 
 <br/>
 <br/>
-<br/>
 <img src="https://portfolioresumemy.netlify.app/images/one-store.jpg" />
 
 # Getting Started with Create React App
