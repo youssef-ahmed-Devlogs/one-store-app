@@ -1,4 +1,5 @@
 <h2>ONE STORE E-COMMERCE</h2>
+<p>I used in this project : React js , Redux , Hooks, Fake store api, Css</p>
 <img src="https://portfolioresumemy.netlify.app/images/one-store.jpg" />
 
 # Getting Started with Create React App
