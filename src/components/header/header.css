@@ -1,0 +1,103 @@
+header {
+  margin-bottom: 40px;
+}
+
+.top-header {
+  background-color: var(--light-color);
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: var(--second-color);
+}
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 25px;
+  }
+}
+
+.navbar-brand span {
+  color: var(--first-color);
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottom-header {
+  background-color: var(--dark-color);
+  padding: 10px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  transition: 0.5s ease-in-out;
+  padding: 10px;
+  color: var(--light-color);
+}
+
+.nav-link:hover {
+  background-color: var(--first-color);
+  color: #fff;
+}
+
+.bag {
+  display: flex;
+  align-items: center;
+}
+
+.bag .total {
+  font-size: 14px;
+  color: var(--dark-color);
+}
+
+@media (max-width: 320px) {
+  .bag .total {
+    display: none;
+  }
+}
+
+.bag-icon {
+  position: relative;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.bag-icon i {
+  font-size: 30px;
+}
+
+.bag-icon span {
+  position: absolute;
+  bottom: -5px;
+  left: -6px;
+  background-color: var(--second-color);
+  color: var(--light-color);
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+.active {
+  background-color: var(--first-color);
+  color: #fff;
+}

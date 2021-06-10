@@ -1,0 +1,10 @@
+export const SET_PRODUCTS = "SET_PRODUCTS";
+export const SET_PRODUCT = "SET_PRODUCT";
+export const ADD_TO_CART = "ADD_TO_CART";
+export const DELETE_FROM_CART = "DELETE_FROM_CART";
+export const SELECT_FROM_CART = "SELECT_FROM_CART";
+export const SET_QUANTITY = "SET_QUANTITY";
+export const CHECKOUT_CART = "CHECKOUT_CART";
+export const GRID_SIZE_LARGE = "GRID_SIZE_LARGE";
+export const GRID_SIZE_SMALL = "GRID_SIZE_SMALL";
+export const SELECTED_CATEGORY = "SELECTED_CATEGORY";
